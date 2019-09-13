@@ -1,0 +1,77 @@
+.button {
+  background-color: #EBEDEF;
+  border: 2px solid #EBEDEF;
+  color: 2px black;
+  color: black;
+  font-size: 20px;
+}
+
+.list {
+  padding-right: 22px;
+  max-height:700px ;
+  overflow: auto;
+}
+
+.userlist {
+  display: flex;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.userList td, .userList th {
+  padding: 8px;
+  color:black;
+}
+
+.userList tr:hover {
+  background-color: #ddd;
+}
+
+.userList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd;
+  color:black
+}
+
+.userContents {
+  border: 1px solid black;
+  padding: 24px; 
+}
+
+@media (max-width:320px) and (max-width:425px){
+  .userContents {
+    border: 0.5px solid rgb(235, 237, 239) !important;
+    margin-left: -21px;
+    padding: 0px!important;
+  }
+
+  .userList {
+    margin-left: -44px !important;
+  }
+
+  .card {
+    margin-left: -12px !important;
+  }
+
+  .userList td, .userList th {
+    font-size: 10px !important;
+  }
+
+  .list {
+    width: 206px !important;
+  }
+}
+
+@media (max-width:375px) and (min-width:321px){
+  .userContents {
+    border: 0.5px solid rgb(235, 237, 239) !important;
+  }
+
+  .userList {
+    margin-left: -43px !important;
+  }
+  
+}

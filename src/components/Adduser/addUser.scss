@@ -1,0 +1,177 @@
+.mainUser {
+  background-color:rgb(235, 237, 239);
+  border: 1px solid black;
+  height:1000px
+}
+
+.submit{
+  margin-top: 0px !important;
+}
+
+.user-form {
+  margin-left: 120px;
+}
+
+.heading {
+  font-size: 38px;
+  margin-top: 35px;
+  margin-left: 13px;
+  color: #313031;
+}
+
+.formItem {
+  color: #85C1E9;
+  margin-left: 37px;
+  margin-top: 32px;
+  font-size: 22px;
+}
+
+.field {
+  width: 271px;
+  height: 36px;
+  border: 1px solid #ebedef !important;
+  background-color: white !important;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-left: 12px;
+  padding: 13px;
+}
+
+.hr {
+ 
+  margin-left: -119px !important;
+  margin-top: 32px !important
+
+}
+
+.formItem {
+  color: #85C1E9;
+  margin-left: 37px;
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+.select {
+  width: 271px;
+  height: 36px;
+  border: 1px solid #ebedef !important;
+  background-color: white !important;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
+@media(max-width:768px) and (min-width:425px){
+  .user-form {
+    margin-left: 9px !important;
+  }
+  .hr{
+    margin-left:-3px !important;
+
+  }
+}
+
+@media (max-width:320px) and (max-width:425px){
+  .field {
+    width: 170px !important
+  }
+
+  .select {
+    width: 170px !important
+  }
+
+  .Usercontainer {
+    margin-left: -36px !important
+  }
+
+  .heading {
+    font-size: 19px !important;
+  }
+
+  .submit {
+    margin-left: 40px !important;
+  }
+
+  .user-form {
+    margin-left: 28px !important;
+  }
+
+  .mainUser {
+    background-color:rgb(235, 237, 239);
+    border: 0.5px solid rgb(235, 237, 239) !important;
+    height:1000px
+  }
+  .hr{
+    margin-left:-4px !important;
+  }
+}
+
+@media (max-width:375px) and (min-width:321px){
+  .field {
+    width: 259px !important
+  }
+
+  .select {
+    width: 259px !important
+  }
+
+  .user-form {
+    margin-left: -29px !important;
+  }
+
+  .heading {
+    font-size: 24px !important;
+    margin-left: 44px !important;
+  }
+  
+  .submit {
+    margin-left: 78px !important;
+  }
+
+  .mainUser {
+    border: 0.5px solid rgb(235, 237, 239) !important;
+  }
+  .hr{
+    margin-left:-47px !important;
+    width:325px !important;
+  }
+}
+
+@media (max-width:425px) and (min-width:376px){
+  .field {
+    width: 259px !important
+  }
+
+  .select {
+    width: 259px !important
+  }
+
+  .user-form {
+    margin-left: -9px !important;
+  }
+
+  .heading {
+    font-size: 29px !important;
+    margin-left: 30px !important;
+  }
+
+  .submit {
+    margin-left: 78px !important;
+  }
+
+  .mainUser {
+    border: 0.5px solid rgb(235, 237, 239) !important;
+  }
+}
+
+@media(max-width:1024px) and (min-width:769px){
+  .user-form {
+    margin-left: 45px;
+  }
+
+  .hr {
+    width: 358px !important;
+    margin-top: 23px;
+    margin-left: -41px !important;
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Length",
+    "unit": "metre",
+    "symbol": "m"
+  },
+  {
+    "name": "Mass",
+    "unit": "kilogram",
+    "symbol": "kg"
+  },
+  {
+    "name": "Time",
+    "unit": "second",
+    "symbol": "s"
+  },
+  {
+    "name": "Temperature",
+    "unit": "kelvin",
+    "symbol": "K"
+  }
+]

@@ -1,0 +1,109 @@
+.logincontainer {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 387px;
+  border-radius: 10px;
+  background-color: rgb(226, 236, 251);
+  opacity: 0.7;
+}
+
+.validate {
+  margin-left: 79px;
+  color: red;
+}
+
+@media (max-width: 320px) {
+  .login-form {
+    left: 43px !important;
+  }
+
+  .h3 {
+    margin-left: 46px !important;
+  }
+
+  .h4 {
+    margin-left: 62px !important;
+  }
+  
+  .check {
+    margin-left: 38px !important;
+  }
+}
+
+.login-form {
+  position: relative;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 300px;
+}
+
+.h3 {
+  color: black;
+  margin-top: 40px;
+  font-size: 50px;
+  margin-left: 78px;
+}
+
+.field {
+  width: 271px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
+.submit {
+  width: 113px;
+  height: 30px;
+  margin-top: 13px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  margin-left: 95px;
+}
+
+.check {
+  width: 40px;
+  height: 18px;
+  margin-top: 17px;
+  margin-left: 19px;
+}
+
+.h4 {
+  margin-top: -24px;
+  color: black;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.main {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(44, 44, 46);
+  background-size: cover;
+}
+@media (max-width: 500px) {
+  .main {
+    width: 127%;
+    height: 172%;
+  }
+}
+
+.validation {
+  margin-left: 85px;
+  color: red;
+}

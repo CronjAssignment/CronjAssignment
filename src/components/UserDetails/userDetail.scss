@@ -1,0 +1,136 @@
+$color: black;
+.email {
+  color: skyblue;
+  font-size: 16px;
+}
+
+.profile-detail {
+  display: flex;
+  flex-direction: row;
+}
+.iconContainer {
+  float: right;
+  font-size: 25px;
+  margin-left: 26px;
+  margin-top: 39px;
+}
+
+@media (max-width: 425px) {
+  .iconContainer {
+    margin-left: -2px;
+    margin-top: 39px;
+  }
+}
+
+.profile-img {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.user-detail {
+  margin-left: 10px;
+
+  .detail {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+    .title {
+      width: 100px;
+    }
+
+    .title-value {
+      float: left;
+      color: $color;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .title-value {
+    margin-left: -17px;
+  }
+}
+
+.spanItem {
+  font-size: 18px;
+  color: rgb(121, 187, 204);
+}
+
+.user-name {
+  font-size: "25px";
+  margin-left: 10px;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  .client-title {
+    width: 100px;
+  }
+
+  .client-title-value {
+    float: left;
+    color: $color;
+  }
+}
+
+.department {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  .department-title {
+    width: 100px;
+  }
+
+  .department-title-value {
+    float: left;
+    color: $color;
+  }
+}
+
+.phoneNumber {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  .phoneNumber-title {
+    width: 100px;
+  }
+
+  .phoneNumber-title-value {
+    float: left;
+    color: $color;
+  }
+}
+
+@media (max-width: 768px) {
+  .system {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.system {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  .system-title {
+    width: 100px;
+  }
+
+  .system-title-value {
+    float: left;
+    color: $color;
+  }
+}

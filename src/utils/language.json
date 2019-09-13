@@ -1,0 +1,43 @@
+[
+  { "code": "ab", "name": "Abkhaz", "nativeName": "аҧсуа" },
+  { "code": "aa", "name": "Afar", "nativeName": "Afaraf" },
+  { "code": "af", "name": "Afrikaans", "nativeName": "Afrikaans" },
+  { "code": "ak", "name": "Akan", "nativeName": "Akan" },
+  { "code": "sq", "name": "Albanian", "nativeName": "Shqip" },
+  { "code": "am", "name": "Amharic", "nativeName": "አማርኛ" },
+  { "code": "ar", "name": "Arabic", "nativeName": "العربية" },
+  { "code": "an", "name": "Aragonese", "nativeName": "Aragonés" },
+  { "code": "hy", "name": "Armenian", "nativeName": "Հայերեն" },
+  {
+    "code": "ny",
+    "name": "Chichewa; Chewa; Nyanja",
+    "nativeName": "chiCheŵa, chinyanja"
+  },
+  {
+    "code": "zh",
+    "name": "Chinese",
+    "nativeName": "中文 (Zhōngwén), 汉语, 漢語"
+  },
+  { "code": "cv", "name": "Chuvash", "nativeName": "чӑваш чӗлхи" },
+  { "code": "kw", "name": "Cornish", "nativeName": "Kernewek" },
+  { "code": "nl", "name": "Dutch", "nativeName": "Nederlands, Vlaams" },
+  { "code": "en", "name": "English", "nativeName": "English" },
+  { "code": "eo", "name": "Esperanto", "nativeName": "Esperanto" },
+  { "code": "et", "name": "Estonian", "nativeName": "eesti, eesti keel" },
+  {
+    "code": "ff",
+    "name": "Fula; Fulah; Pulaar; Pular",
+    "nativeName": "Fulfulde, Pulaar, Pular"
+  },
+  { "code": "gl", "name": "Galician", "nativeName": "Galego" },
+  { "code": "ka", "name": "Georgian", "nativeName": "ქართული" },
+  { "code": "de", "name": "German", "nativeName": "Deutsch" },
+  { "code": "el", "name": "Greek, Modern", "nativeName": "Ελληνικά" },
+  { "code": "gn", "name": "Guaraní", "nativeName": "Avañeẽ" },
+  { "code": "gu", "name": "Gujarati", "nativeName": "ગુજરાતી" },
+  {
+    "code": "ht",
+    "name": "Haitian; Haitian Creole",
+    "nativeName": "Kreyòl ayisyen"
+  }
+]
