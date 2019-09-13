@@ -1,6 +1,6 @@
 After cloning the project, run
 
-Make sure node version should be greater than 10.1.5.3
+Make sure node version should be greater than 10.15.3
 
 ## npm install
 
